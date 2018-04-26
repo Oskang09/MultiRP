@@ -1,0 +1,12 @@
+main: me.oska.mrp.MRP
+name: MultiRP
+version: 0.1-BETA
+author: Oskang09
+depend: [PacketListenerApi]
+description: Force player use resourcepack or selectable with gui
+commands:
+    mrp:
+        description: MultiRP command
+        aliases:
+        - multirp
+        usage: /<command>

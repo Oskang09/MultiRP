@@ -1,0 +1,44 @@
+download:
+    declined:
+        kick: true
+        message: '§cYou need to accept resourcepack!'
+    failed_download:
+        kick: true
+        message: '§fYou have failed download resourcepack.\n§fContact the Server Admin'
+command:
+    use: true
+    permission: 'mrp.use'
+login:
+    event: 'authme'
+    use_default: false
+    use_gui: true
+    use_force_timer: true
+    timer:
+        message: '§fAlready reach pending time ...' 
+        pending_time: 10
+    default:
+        default_url: ''
+        default_hash: ''
+    gui:
+        kick_when_close: true
+        message: 'Choose a resource pack!'
+gui:
+    gui_name: '§f§lMultiRP ( CHOOSE ONE )'
+    next_page:
+        id: 288
+        data_value: 0
+        name: '§f§lNext Page'
+        lore:
+        - '§fClick me to next page!'
+    previous_page:
+        id: 341
+        data_value: 0
+        name: '§f§lPrevious Page'
+        lore:
+        - '§fClick me to previous page!'
+    paging:
+        id: 54
+        data_value: 0
+        name: '§f§lPaging'
+        lore:
+        - '§aCurrent Page - §f%page'

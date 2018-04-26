@@ -1,0 +1,11 @@
+mrp:
+    list_rp:
+        1:
+            id: 2
+            data_value: 0
+            name: '§fDefault Pack 1.11.2'
+            lore:
+            - '§7 Minecraft Default Pack'
+            - '§a Version 1.11.2'
+            url: https://www.dropbox.com/s/j0oltf2zqaz942i/1.11.2.zip?dl=1
+            hash: 391562CA4A83114577AECC4AC475EA6B2D16B6C9
