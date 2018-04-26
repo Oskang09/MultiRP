@@ -16,6 +16,9 @@ PacketListenerApi ( https://www.spigotmc.org/resources/api-packetlistenerapi.293
 #   use_gui is after player join and show the resourcepack gui and player choose themselves
 #   but if kick_when_close has enabled , player close inventory without choosing any resourcepack
 #   will kick the player.
+#   
+#   Warning : remember when enabled this, please ask player to join with Server Resource Pack : Prompt setting.
+#   Issue : https://github.com/Oskang09/MultiRP/issues/1
 #
 #  Setting use_default
 #
