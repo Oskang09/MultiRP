@@ -1,4 +1,4 @@
-# Dependcency
+# Depencency
 
 PacketListenerApi ( https://www.spigotmc.org/resources/api-packetlistenerapi.2930/ )
 
