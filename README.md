@@ -1,5 +1,3 @@
-# MultiRP
-
 # Configuration
 
 ```
@@ -79,13 +77,25 @@ gui:
 ```
 mrp:
     list_rp:
-        1:
+        default_pack: 
+        # Put whatever name u want and not repeat.        
+        # Its support multi page but the front will display first
+        # so if any resourcepack want put at first page then put here.
+        # and one page supported 45 resource_pack
+        
+            # Display Item Config
             id: 2
             data_value: 0
             name: '§fDefault Pack 1.11.2'
             lore:
             - '§7 Minecraft Default Pack'
             - '§a Version 1.11.2'
+            # The resourcepack url
             url: https://www.dropbox.com/s/j0oltf2zqaz942i/1.11.2.zip?dl=1
+            
+            # The resourcepack hash
             hash: 391562CA4A83114577AECC4AC475EA6B2D16B6C9
+            # You can get the hash via SHA1 ( URL = http://onlinemd5.com )
+            # Open the link and put ur file there then click SHA1
+            # and you will see ur hash at "File checksum:"
 ```
