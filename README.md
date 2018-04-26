@@ -2,7 +2,7 @@
 
 PacketListenerApi ( https://www.spigotmc.org/resources/api-packetlistenerapi.2930/ )
 
-# Configuration
+# Configuration  ( config.yml )
 
 ```
 #               MULTI RESOURCE PACK v0.1 BETA CONFIG
@@ -76,7 +76,7 @@ gui:
         - '§aCurrent Page - §f%page'
 ```
 
-# Sample ResourcePack
+# Sample ResourcePack ( resource_pack.yml )
 
 ```
 mrp:
